@@ -18,6 +18,13 @@ body {
     opacity: 0.90;
 }
 
+/* Change Background to White and Font to Black on Hover */
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+    background-color: white;
+    color:black;
+  }
+
 /* The Modal (background) */
 .modal {
     display: none; 

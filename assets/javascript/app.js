@@ -114,7 +114,7 @@ database.ref().on("child_added", function(snapshot, prevChildKey) {
 
     // Grab the html table and append a table row with table data of user input and calculations
     // from moment.js
-    $(".train-table").append("<tr><td>" + trainName + "</td><td>" + trainDest + "</td><td>" +
+    $(".trainTable").append("<tr><td>" + trainName + "</td><td>" + trainDest + "</td><td>" +
     trainFreq + "</td><td>" + nextTrain + "</td><td>" + minutesAway + "</td><td>");
 });
 

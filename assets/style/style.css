@@ -8,6 +8,7 @@ body {
 .row {
     color:white;
 }
+
 .jumbo {
     opacity: 0.50;
     color: black!important;
@@ -50,6 +51,7 @@ body {
     font-weight: bold;
 }
 
+/* Close styling */
 .close:hover,
 .close:focus {
     color: black;

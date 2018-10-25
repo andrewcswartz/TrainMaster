@@ -1,14 +1,15 @@
+// Launch
 $(document).ready(function() {
 
     
-// Initialize Firebase - API and senderid??
+// Initialize Firebase - API 
 var config = {
     apiKey: "AIzaSyC-R9epDIiLv_SWuqM3x8wp9a_aMdkATdM",
     authDomain: "trainsplan-acs.firebaseapp.com",
     databaseURL: "https://trainplan-acs.firebaseio.com/",
     projectId: "trainplan-acs",
     storageBucket: "trainplan-acs.appspot.com",
-    // messagingSenderId: "376858205018"
+  
   };
 
 firebase.initializeApp(config);

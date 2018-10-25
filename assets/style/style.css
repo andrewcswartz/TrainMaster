@@ -18,6 +18,16 @@ body {
     opacity: 0.90;
 }
 
+input.form-control:focus {
+    background-color:black;
+    color: white;
+}
+/* Dont like how this works prefer focus */
+/* input.form-control:hover {
+    background-color:blueviolet;
+    color: black;
+} */
+
 /* Change Background to White and Font to Black on Hover */
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {

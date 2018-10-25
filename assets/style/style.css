@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    /* color: #fefefe; */
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.row {
+    color:white;
+}
+.jumbo {
+    opacity: 0.50;
+    color: black!important;
+}
+
+.panelCustom {
+    opacity: 0.90;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+    color: black!important;
+}
+
+/* Modal ContentBox */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: black!important;
+}
+
+/* The Close Button */
+.close {
+    color: green;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
